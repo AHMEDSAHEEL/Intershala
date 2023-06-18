@@ -1,0 +1,262 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+cursor: pointer;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.main{
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    height: 12vh;
+    position: sticky;
+    top:0;
+    
+
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px 60px;
+}
+nav a{
+    text-decoration: none;
+    color: white;    
+}
+nav  a:hover{
+    font-weight: bold;
+    
+}
+#about {
+    
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: justify;
+
+}
+#frame{
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    padding-top: 30px;  
+    display: flex;
+    
+}
+.battery{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+}
+.battery1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.battery3{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+#service{
+    background-color:grey;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    float: left;
+    color: white;
+    border-right: 2px solid black;
+    
+}
+#inge{
+    text-align: center;
+    background-color:grey;
+  color:white;
+    width: 50%;
+    float: right;
+    height: 100%;
+    
+}
+.para1{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    width:18em;
+    height: 27em;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.para2{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    width:18em;
+    height: 27em;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.para3{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    width:18em;
+    height: 27em;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.para4{
+    text-align: justify;
+    background-color: black;
+    color: white;
+    width:18em;
+    height: 27em;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+
+
+.kee{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.koo{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#service1{
+    background-color:grey;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    float: left;
+    color: white;
+    border-right: 2px solid black;
+    
+
+}
+#inge1{
+    text-align: center;
+    background-color:grey;
+  color:white;
+    width: 50%;
+    float: right;
+    height: 100%;
+    
+    
+}
+@media screen and (max-width:992px) {
+  #service1{  padding-bottom: 22%;
+  }   
+}
+@media screen and (max-width:992px) {
+    #inge1{  padding-bottom: 20%;
+    }   
+  }
+  @media screen and (max-width:768px) {
+    #service1{  padding-bottom: 33%;
+    }   
+  }
+  @media screen and (max-width:768px) {
+    #inge1{  padding-bottom: 20%;
+    }   
+  }
+  @media screen and (max-width:560px) {
+    #service1{  padding-bottom: 40%;
+    }   
+  }
+  @media screen and (max-width:560px) {
+    #inge1{  padding-bottom: 20%;
+    }   
+  }
+@media screen and (max-width:1200px) {
+    nav a li{
+     padding:20px 40px;
+      font-size: 20px;
+     }
+    }    
+@media screen and (max-width:768px) {
+   nav a li{
+    padding:20px 10px;
+     font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:560px){
+    nav a li{
+        flex-direction: column;
+        padding: 20px 5px;
+        font-size: 15px;
+    }
+}
+    
+@media screen and (max-width:992px) {
+    #frame {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+
+    
+}
+@media screen and (max-width:1200px) {
+    #frame {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .kee{
+        flex-direction: column;
+        font-size:15px;       
+    }   
+}
+@media screen and (max-width:1200px) {
+    .koo{
+        flex-direction: column;
+        font-size:15px;
+    }
+}
+@media screen and (max-width:560px) {
+    .kee{
+        flex-direction: column;
+        font-size:12px;       
+    }   
+}
+@media screen and (max-width:560px) {
+    .koo{
+        flex-direction: column;
+        font-size:12px;
+    }
+}
